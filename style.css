@@ -198,7 +198,7 @@ progress {
 
 .card {
   transition: 0.3s;
-  border-radius: 10px; /* 5px rounded corners */
+  border-radius: 10px;
   background-color: white;
   width: 400px;
   margin: 20px;
