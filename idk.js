@@ -4,7 +4,7 @@
 
 new TypeIt("#headline", {
   strings: ["Hi! I'm Ana Rita", "and this is my website. "],
-  speed: 100,
+  speed: 50,
   waitUntilVisible: true,
 }).go();
 
