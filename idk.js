@@ -10,8 +10,8 @@ new TypeIt("#headline", {
 
 /* fade in tagline + image */
 
-$("#tagline").hide().delay(5500).fadeIn(2500);
-$("#flex-item").hide().delay(5200).bind("load", function () { $(this).fadeIn(2500); });
+$("#tagline").hide().delay(4500).fadeIn(1500);
+$("#flex-item").hide().delay(5200).bind("load", function () { $(this).fadeIn(2000); });
 
 /* scroll animation */
 
@@ -24,4 +24,3 @@ $(document).on("click","a",function(e){
     scrollTop: $(id).offset().top - topSpace
   }, 800);
 });
-
