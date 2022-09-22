@@ -11,6 +11,15 @@ body {
   display:flex;
   padding: 80px;
 }
+
+.container3 {
+  padding: 80px;
+}
+
+.container4 {
+  display: flex;
+}
+
 .fixed {
   width: 95%;
 }
@@ -202,11 +211,26 @@ progress {
   background-color: white;
   width: 400px;
   margin: 20px;
+  box-shadow: black;
 }
 
 /* Add rounded corners to the top left and the top right corner of the image */
 img {
   border-radius: 10px 10px 0 0;
+}
+
+h3 {
+  margin: 5%;
+}
+
+h4 {
+  margin: 5%;
+  color: grey;
+}
+
+#hyperlinks {
+  margin: 5%;
+  margin-top: -2%;
 }
 
 #contact {
@@ -216,7 +240,7 @@ img {
 .icons {
   color: black;
   text-align: center;
-  padding: 20px;
+  padding: 2%;
 }
 
 .icons:hover {
